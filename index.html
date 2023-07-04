@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Meditation App</title>
+</head>
+<body>
+    <div class="video">
+        <video autoplay loop>
+            <source src="assets\video\summer.mp4">
+        </video>
+    </div>
+
+    <div class="app">
+        <div class="audio">
+            <audio>
+                <source src="assets\audio\meditation.mp3" type="audio/mp3">
+            </audio>
+            <div class="pause">
+                <img src="assets\img\pause-button.png" alt="pause">
+            </div>
+
+            <div class="progress">
+                <svg>
+                    <rect class="rect1" stroke-width="10" rx="8" height="150" width="150" y="25" x="25" stroke="#F07281" fill="transparent"></rect>
+                </svg>
+                <svg>
+                    <rect class="rect" stroke-width="10" rx="8" height="150" width="150" y="25" x="25" stroke=white fill="transparent"></rect>
+                </svg>
+                <div class="audio-remaining-time">
+                    00:00
+                </div>
+            </div>
+
+            <div class="play">
+                <img src="assets\img\play-button.png" alt="play">
+            </div>
+        </div>
+        <div class="durations"></div>
+        <div class="seasons"></div>
+    </div>
+</body>
+</html>
